@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    
+   }
+   /***** CONFIGURAÇÃO DO CONTAINER ****/
+   #container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+   }
+   /***** FIM CONFIGURAÇÃO DO CONTAINER ****/
+   /***** CONFIGURAÇÃO DO TOPO ****/
+   #topo-site{
+    position: relative;
+    width: 100% ;
+    height: 190px;
+    background-color:black;
+    z-index: 999;
+   
+   }
+   /***** FIM DA CONFIGURAÇÃO DO TOPO ****/
+   /***** CONFIGURAÇÃO DO LOGO DO SITE ****/
+   #logo{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    float:left;
+    margin-top: 20px;
+   }
+
+   #logo img {
+    width: 333px;
+    height: 187px;
+   }
+   /***** FIM DA CONFIGURAÇÃO DO LOGO DO SITE ****/
+   /***** CONFIGURAÇÃO DA REDE SOCIAIS ****/
+   #rede-sociais{
+    position: absolute;
+    width: 116px;
+    height: 50px;
+    float:right;
+    right: 10px;
+    margin-top: 70px;
+   }
+   /***** FIM DA CONFIGURAÇÃO DA REDE SOCIAIS ****/
+   /***** CONFIGURAÇÃO DO MENU DO SITE ****/
+   .menu_simple {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 23%;
+    bottom: 0;
+    background-color:red;
+   }
+   .menu_simple ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+   }
+   .menu_simple ul li {
+    height: 100%;
+    display: inline;
+   }
+   .menu_simple ul li a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    margin-left: 100px;
+    background-color: red;
+   }
+   .menu_simple ul li a:visited {
+    color: white;
+   }
+   .menu_simple ul li a:hover{
+    color: white;
+    background-color: crimson;
+   }
+   /***** FIM DA CONFIGURAÇÃO DO MENU DO SITE ****/
+   /***** CONFIGURAÇÃO DO SLIDE DO SITE ****/
+   #slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 49%;
+   }
+
+   #slide #featured img {
+    width: 960px;
+    height: 380px;
+   }
+   #img {
+    position:absolute;
+    width: 1px;
+    height: 1px;
+    background-image: url(../img/carro\ vasco.jpg);
+   }
+   /***** FIM DA CONFIGURAÇÃO DO SLIDE DO SITE ****/
+   /***** CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+   .caixa-conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 281px;
+    height: 100%;
+    font-size: 80%;
+    float: left;
+    margin-left: 17px;
+    margin-top: 40px;
+   }
+   .caixa-conteudo h3{
+    color:white;
+    margin-left: 50px
+   }
+   .caixa-conteudo ul {
+    list-style: none;
+    float:left;
+    color: white;
+    margin-top:-10px;
+    margin-left: 10px;
+   }
+   .caixa-conteudo ul li{
+    margin-top: 10px;
+   }
+   .caixa-conteudo li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+   }
+   /***** FIM CONFIGURAÇÃO DA CAIXA CONTEUDO ****/
+   /***** CONFIGURAÇÃO DO RODAPE DO SITE ****/
+   #rodape-site{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height:290px;
+    background-color:black;
+    z-index: 999;
+   }
+   #autor-site{
+    width: 100%;
+    height: 5%;
+    background-color: red;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+   }
+   /***** FIM CONFIGURAÇÃO DO RODAPE DO SITE ****/
+   /***** CONFIGURAÇÃO DA DIV SOBRE ****/
+   #sobre{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    min-height: 49%;
+    background-color: white;
+   }
+   #foto-sobre{
+    width: 80vw;
+    height: 40vh;
+   
+    float: left;
+    margin-top: 25px;
+   }
+   #foto-sobre img {
+    width: 100%;
+    max-width: 710px;
+    height: 100%;
+   }
+   #texto-sobre{
+    font-size: 19px;
+    width: 50%;
+    float: left;
+    margin-top: 25px;
+    text-align: justify;
+   }
+   /***** FIM CONFIGURAÇÃO DO SOBRE ****/
+   #idolos_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        min-height: 440px;
+        padding: 10px;
+   }
+   #idolos_container div{
+        width: 300px;
+        height: 300px;
+        border: 3px solid red;
+        border-radius: 40px;
+        background-size: cover;
+        background-position: center;
+   }
+   .romario{
+        background-image: url(../img/94\ romariooooooo.jpg);
+    }
+    .barbosa{
+        background-image: url(../img/barbosa.jpg);
+    }
+    .edmundo{
+        background-image: url(../img/Edmundo.webp);
+    }
+    .pernambucano{
+        background-image: url(../img/juninho-pernambucano.jpg);
+    }
+    .dinamite{
+        background-image: url(../img/dinamite.webp);
+    }
+    .ribamar {
+        background-image: url(../img/ribamar.jpeg);
+    }
+
+   /***** 990x790 Confiugurando Media Screen ****/
+
+    @media  screen and (max-width: 895px) {
+        .menu_simple ul li a {
+            margin-left: 20px;
+
+        }
+        
+    }
+
+    @media screen and (max-width: 790px) {
+        #sobre {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        #texto-sobre {
+            width: 80vw;
+            margin-bottom: 20px;
+        }
+        #idolos_container {
+            justify-content: center;
+            align-items : center;
+        }
+    }
+
+    @media screen and (max-width: 600px){
+        #countainer {
+            flex-direction: column;
+        }
+        #sobre {
+            flex-direction: column;
+            width: 100%;
+        }
+        #rodape-site{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+    }
